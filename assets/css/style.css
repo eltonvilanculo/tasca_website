@@ -42,9 +42,13 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #1a1814;
+  background: #ffff;
+  background-image: url('../img/loading.gif') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
-
+/* 
 #preloader:before {
   content: "";
   position: fixed;
@@ -58,7 +62,8 @@ a:hover {
   height: 60px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
-}
+  
+} */
 
 @-webkit-keyframes animate-preloader {
   0% {
